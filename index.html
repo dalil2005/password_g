@@ -306,6 +306,27 @@
                 font-size: 16px;
             }
         }
+        footer {
+    margin-top: 20px;
+    font-size: 14px;
+    background-color: #2c3e50; /* Dark background */
+    color: white; /* Text color */
+    padding: 10px; /* Padding around the footer */
+    width: 100%; /* Full width */
+    text-align: center; /* Center text */
+    position: relative; /* Positioning */
+    bottom: 0; /* Stick to the bottom */
+}
+
+footer a {
+    color: #1abc9c; /* Lighter link color */
+    text-decoration: none; /* No underline */
+    font-weight: bold; /* Bold link text */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
     </style>
 </head>
 <body>
@@ -358,6 +379,10 @@
         </div>
         <div class="strength-text">Password strength</div>
     </div>
+    <footer>
+        Developed by Dalil | <a href="https://www.linkedin.com/in/zakaria-cherif-1b9797285/" target="_blank">LinkedIn</a>
+    </footer>
+
 
     <script>
         document.getElementById('generate').addEventListener('click', generatePassword);
